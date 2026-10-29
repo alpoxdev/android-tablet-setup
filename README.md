@@ -1,5 +1,7 @@
 # PadDeck
 
+[![Android CI](https://github.com/alpoxdev/android-tablet-setup/actions/workflows/android.yml/badge.svg)](https://github.com/alpoxdev/android-tablet-setup/actions/workflows/android.yml)
+
 안드로이드 태블릿을 맥북의 트랙패드·키보드처럼 쓰는 앱입니다.
 세 가지 문제를 한 앱에서 다룹니다.
 
