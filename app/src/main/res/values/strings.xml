@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PadDeck</string>
+    <string name="ime_name">PadDeck 키보드</string>
+</resources>
