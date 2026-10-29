@@ -1,0 +1,12 @@
+# 줄바꿈은 LF로 통일하고, 바이너리는 변환하지 않습니다.
+* text=auto eol=lf
+
+*.bat text eol=crlf
+gradlew text eol=lf
+*.sh text eol=lf
+
+*.jar binary
+*.png binary
+*.webp binary
+*.apk binary
+*.aab binary
