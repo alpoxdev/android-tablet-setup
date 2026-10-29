@@ -23,7 +23,7 @@
 | 안드로이드 기기 | Android 11(API 30) 이상, 가로 화면 권장 |
 
 Android SDK 경로는 `local.properties`의 `sdk.dir`이나 `ANDROID_HOME` 환경 변수로 지정합니다.
-두 파일 모두 기기마다 다른 값이라 Git에 올리지 않습니다.
+`local.properties`는 기기마다 값이 다르므로 Git에 올리지 않습니다.
 
 ## 빌드와 설치
 
@@ -61,7 +61,7 @@ app/src/main/java/dev/paddeck/
 | `ime` | 노트북형 키보드와 두벌식 한글 조합기 |
 | `ui` | 연결 화면, 원격 화면, 설정 |
 
-`vnc`, `input`, `ime`의 조합기는 안드로이드 의존성 없이 순수 Kotlin으로 두어 JVM 테스트로 검증합니다.
+`vnc`, `input`, `ime`의 계산 코드는 안드로이드 의존성 없이 순수 Kotlin으로 두어 JVM 테스트로 검증합니다.
 
 ## 진단 스크립트
 
